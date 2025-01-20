@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--begin navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="Logo/Fit-Fusion.png" alt="Fit-Fusion" height="30"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-items" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--end navbar--> 
+
+    <!--begin hero image-->
+    <div class="hero-image">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 hero-h1 content-hero">
+            <h1 class="bungee-wit">FitFusion: Meer dan Fitness</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 hero-p">
+            <p class="roboto-p-wit">
+              Sinds 2018 biedt FitFusion in Geldrop persoonlijke begeleiding in
+              fitness, voeding en welzijn. Voor iedereen tussen 25 en 70 die
+              streeft naar een gezondere levensstijl!
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 hero-button-sm">
+            <button class="hero-button bungee-wit">aanmelden</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end hero image-->
+
+    <!--begin infoblok-->
+    <div class="container">
+      <div class="row infoblok">
+        <div class="col-lg-12 col-sm-12 infoblok-h1 content-infoblok">
+          <h1 class="bungee-oranje">Gezondheid en Balans</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-sm-12 infoblok-p">
+          <p class="roboto-p-grijs">
+            FitFusion is een plek waar je je thuis voelt en waar je jezelf kunt
+            zijn. Wij helpen je om je doelen te bereiken en je gezondheid te
+            verbeteren. Wij bieden een persoonlijke aanpak en begeleiding op
+            maat.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 infoblok-button-sm">
+            <button class="hero-button bungee-wit">ontdek onze aanpak</button>
+          </div>
+        </div>
+      </div>
+      <!--end infoblok-->
+
+      <!--begin testimonials-->
+      <div class="container">
+        <div class="row testimonials-content testimonials">
+          <div class="col-lg-12 col-sm-12 testimonials-h1 content-testimonials text-center">
+            <h1 class="bungee-oranje">hoor het van anderen</h1>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="card">
+              <div class="mask-emma"></div>
+              <h6 class="card-title bungee-oranje">Emma, 30</h6>
+              <p class="card-text roboto-p-wit">
+                "FitFusion heeft me geholpen om meer energie te krijgen en
+                balans te vinden in mijn drukke leven. De persoonlijke aanpak
+                werkt geweldig!"
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="card">
+              <div class="mask-mei"></div>
+              <h6 class="card-title bungee-oranje">Mei, 28</h6>
+              <p class="card-text roboto-p-wit">
+                "Ik ben zo blij met de combinatie van fitness en voedingsadvies.
+                De trainers zijn professioneel en echt betrokken bij jouw
+                doelen."
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="card">
+              <div class="mask-aisha"></div>
+              <h6 class="card-title bungee-oranje">Aisha, 38</h6>
+              <p class="card-text roboto-p-wit">
+                "Bij FitFusion voel ik me thuis. Het is een plek waar ik niet
+                alleen fitter word, maar ook deel uitmaak van een inspirerende
+                community."                                                                            
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-12 col-sm-12 text-center">
+              <button class="bungee-wit testimonials-button-sm">
+                sluit je aan
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--end testimonials-->
+
+        <!--begin testimonial slider-->
+        <div id="carouselExampleCaptions" class="carousel slide Slider">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="col-lg-12 col-sm-12 testimonials-h1-slider content-testimonials text-center">
+            <h1 class="bungee-oranje">hoor het van anderen</h1>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/Media/Emma-testimonial.jpeg" class="d-block w-100 Slider" alt="...">
+              <div class="carousel-caption Slider">
+                <h6 class="bungee-oranje-slider">Emma, 30</h6>
+                <p class="roboto-p-wit-slider">                
+                 "FitFusion heeft me geholpen om meer energie te krijgen en
+                  balans te vinden in mijn drukke leven. De persoonlijke aanpak
+                  werkt geweldig!"
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/Media/Mei-testimonial.jpeg" class="d-block w-100 Slider" alt="...">
+              <div class="carousel-caption Slider">
+                <h6 class="bungee-oranje-slider">Mei, 28</h6>
+                <p class="roboto-p-wit-slider">
+                 "Ik ben zo blij met de combinatie van fitness en voedingsadvies.
+                  De trainers zijn professioneel en echt betrokken bij jouw
+                  doelen."
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/Media/Aisha-testimonial.jpeg" class="d-block w-100 Slider" alt="...">
+              <div class="carousel-caption Slider">
+                <h6 class="bungee-oranje-slider">Aisha, 38</h6>
+                <p class="roboto-p-wit-slider">
+                 "Bij FitFusion voel ik me thuis. Het is een plek waar ik niet
+                  alleen fitter word, maar ook deel uitmaak van een inspirerende
+                  community."  
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!--end testimonial slider-->
+
+        <!--begin laatste blok-->
+        <div class="container">
+          <div class="row laatste-content">
+            <div class="col-lg-6 col-sm-12 laatste-img-container">
+              <h1 class="bungee-oranje laatste-h1 mobile-only">
+                Sluit Je Aan Bij FitFusion
+              </h1>
+              <img src="/Media/Laatste.jpeg" alt="fit" class="laatste-img"/>
+            </div>
+            <div class="col-lg-6 col-sm-12 laatste-text-container">
+              <h1 class="bungee-oranje laatste-h1 desktop-only">
+                Sluit Je Aan Bij FitFusion
+              </h1>
+              <p class="roboto-p-grijs laatste-p">
+                Ben jij klaar voor een gezondere levensstijl?
+                Bij FitFusion helpen we je met persoonlijke begeleiding,
+                een actieve community en een aanpak die verder gaat dan alleen fitness.
+                Samen bereiken we jouw doelen!
+              </p>
+              <button class="bungee-wit laatste-button">
+                word lid
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--begin footer-->
+        <footer>
+          <p class="bungee-wit p-footer">Made by: <a>MBdevs</a></p>
+        </footer>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"
+        ></script>
+      </div>
+    </div>
+  </body>
+</html>
